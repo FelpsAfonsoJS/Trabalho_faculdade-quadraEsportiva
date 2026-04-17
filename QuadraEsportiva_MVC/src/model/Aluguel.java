@@ -1,9 +1,9 @@
+package model;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Aluguel {
-
-
     private Cliente cliente;
     private LocalDate data;
     private LocalTime horaInicio;

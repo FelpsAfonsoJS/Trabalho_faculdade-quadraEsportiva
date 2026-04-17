@@ -1,11 +1,12 @@
-public class Cliente {
+package model;
 
+public class Cliente {
     private String nome;
     private String telefone;
 
     public Cliente(String nome, String telefone) {
         if (nome == null || nome.isEmpty()) {
-            throw new IllegalArgumentException("O nome esta vazio ");
+            throw new IllegalArgumentException("O nome esta vazio");
         }
         this.nome = nome;
         this.telefone = telefone;
@@ -19,4 +20,3 @@ public class Cliente {
         return telefone;
     }
 }
-
